@@ -22,7 +22,7 @@ app.use(cors());
 const pool = new Pool({
   user: "camila",
   password: "12345",
-  host: "10.194.0.3", // IP pública de tu db-vm
+  host: "34.176.118.55", // IP pública de tu db-vm
   port: 5432,
   database: "distribuidos",
 });
